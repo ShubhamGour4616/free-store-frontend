@@ -41,6 +41,7 @@ let obj={
   subtitle:subtitle,
   price:price/quantity,
   thumbnail:thumbnail,
+  slug:slug,
 }
   return (
   
