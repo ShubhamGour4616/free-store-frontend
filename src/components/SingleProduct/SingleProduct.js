@@ -50,6 +50,7 @@ let newObj={
   price:currObj?.price*quantity,
   thumbnail:currObj?.thumbnail,
   quantity:quantity,
+  slug:currObj.slug,
 }
  useEffect(()=>{
   const productData = fetchData(`/api/products?populate=*&[filters][slug]=${parameter.slug}`);
