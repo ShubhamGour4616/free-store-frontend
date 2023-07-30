@@ -1,5 +1,5 @@
 import { API_URL,STRAPI_API_TOKEN } from './url'
-
+// api call
     
   export async function fetchData(endpoint){
     const options = {
